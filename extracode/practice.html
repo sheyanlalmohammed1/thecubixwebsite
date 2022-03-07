@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="/static/css/practice.css"
+    </head>
+    
+
+    <body>
+        <div class="floatright">
+
+        
+        <div class="topnav" id="myTopnav">
+            <a href="/home" class="active">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn" href="/articles">Content
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="/articles">Articles</a>
+                <a href="/economicempowermentgraphics">Economic Empowerment Series</a>
+              </div>
+            </div>
+            <a href="/theteam">The Team</a>
+            <a href="/contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+
+       </div> 
+    </body>
+
+
+</html>
+
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>

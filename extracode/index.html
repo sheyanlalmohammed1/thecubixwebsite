@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #eb6d1a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #eb6d1a;
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 0;
+  margin-left: 40mm;
+  font-size: 4mm;
+ 
+}
+
+
+.right {
+  right: 0;
+  margin-right: -50mm;
+  font-size: 4mm;
+  margin-top: 20px;
+  line-height: 150%;
+}
+</style>
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="split left">
+
+<h3 style="font-size: 6mm ; font-family:Calibri">Please fulfil the form below.</h3>
+  <form action>
+    <label for="fname" style="color:grey; font-family:Calibri">Your Name(required)</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname" style="color:grey; font-family:Calibri">Your Email(required)</label>
+    <input type="text" id="lname" name="lastname" >
+
+    <label for="subject" style="color:grey; font-family:Calibri">Your Message</label>
+    <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+    <input type="submit" value="Send">
+  </div>
+  <div class="split right">
+    <h3 style="font-size: 4mm ; font-family:Calibri ; color: grey;">BEFORE CONTACTING US</h3>
+    <p style="color:grey; font-family:Calibri " >
+        Lorem ipsum dolor sit amet, consectetur adipisici elit,sed<br/>
+        eiusmod tempor incidunt ut labore et dolore magna<br/>
+        aliqua. Non equidem invideo, miror magis posuere velit<br/>
+        aliquet.
+    </p><br>
+
+    <h3 style="font-size: 4mm ; font-family:Calibri ; color: grey;">CONTACT INFORMATION</h3>
+    <p style="color:grey; font-family:Calibri ;line-height: 230%" >
+        
+        184 Main Collins Streer West Victoria 8007 Australia<br/>
+        <i style="font-size:15px; color:black;" class="fa">&#xf095;</i> &nbsp&nbsp 1800-222-222<br/>
+        <i style="font-size:15px ;color: black " class="fa">&#xf0e0;</i>&nbsp&nbsp contact@versatliewptheme.com<br/>
+        <i style="font-size:15px; color: black;" class="fa">&#xf017;</i>&nbsp&nbsp Everyday 9:00-17:00
+        
+    </p>
+    <h3 style="font-size: 4mm ; font-family:Calibri ; color: grey;">SOCIAL MEDIA</h3>
+    <i style="font-size:26px" class="fa">&#xf09a;</i> &nbsp&nbsp
+    <i style="font-size:26px" class="fa">&#xf099;</i> &nbsp&nbsp
+    <i style="font-size:26px" class="fa">&#xf17d;</i> &nbsp&nbsp
+    <i style="font-size:26px" class="fa">&#xf0d2;</i> &nbsp&nbsp
+    <i style="font-size:26px" class="fa">&#xf0d5;</i> &nbsp&nbsp
+    <i style="font-size:26px" class="fa">&#xf16d;</i> &nbsp&nbsp
+
+  </div>
+  </form>
+
+</body>
+</html>
