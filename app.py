@@ -46,3 +46,7 @@ def climatechangeaffectingeconomicinequalitydevelopingcountries():
 @app.route("/2021/11/02/intergenerational-income-mobility-affecting-wealth-inequality")
 def intergenerationalincomemobilityaffectingwealthinequality():
     return render_template("intergenerationalincomemobilityaffectingwealthinequality.html")
+
+@app.route("/2021/11/14/economic-inequality-caused-by-climate-change-developed-countries")
+def economicinequalitycausedbyclimatechangedevelopedcountries():
+    return render_template("economicinequalitycausedbyclimatechangedevelopedcountries.html")
