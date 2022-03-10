@@ -300,11 +300,3 @@ main h1 {
 }
 
 
-
-@media (max-width: 500px) {
-    .allarticles .articlebox {
-      width: 100%;
-    }
-}
-
-
