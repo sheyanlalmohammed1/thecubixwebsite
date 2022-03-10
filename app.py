@@ -63,3 +63,7 @@ def thebroadsolutiontosolvingwealthinequalitythepathway():
 def thebroadsolutiontosolvingwealthinequalitytheorganization():
     return render_template("thebroadsolutiontosolvingwealthinequalitytheorganization.html")
 
+@app.route("/2021/06/15/taking-a-needed-step-towards-solving-wealth-inequality-the-introduction")
+def takinganeededsteptowardssolvingwealthinequalitytheintroduction():
+    return render_template("takinganeededsteptowardssolvingwealthinequalitytheintroduction.html")
+
