@@ -477,4 +477,8 @@ body .floatright {
     width: 100%;
   }
   
+  #changesize {
+    font-size: 50px;
+    padding: 0 40px;
+  }
 }
