@@ -50,3 +50,16 @@ def intergenerationalincomemobilityaffectingwealthinequality():
 @app.route("/2021/11/14/economic-inequality-caused-by-climate-change-developed-countries")
 def economicinequalitycausedbyclimatechangedevelopedcountries():
     return render_template("economicinequalitycausedbyclimatechangedevelopedcountries.html")
+
+@app.route("/2021/08/13/equal-investment-opportunity-to-balance-economic-opportunity")
+def equalinvestmentopportunitytobalanceeconomicopportunity():
+    return render_template("equalinvestmentopportunitytobalanceeconomicopportunity.html")
+
+@app.route("/2021/07/21/the-broad-solution-to-solving-wealth-inequality-the-pathway")
+def thebroadsolutiontosolvingwealthinequalitythepathway():
+    return render_template("thebroadsolutiontosolvingwealthinequalitythepathway.html")
+
+@app.route("/2021/06/22/the-broad-solution-to-solving-wealth-inequality-the-organization")
+def thebroadsolutiontosolvingwealthinequalitytheorganization():
+    return render_template("thebroadsolutiontosolvingwealthinequalitytheorganization.html")
+
