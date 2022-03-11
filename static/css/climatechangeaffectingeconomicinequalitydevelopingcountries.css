@@ -273,7 +273,8 @@ body .floatright {
 @media (max-width: 500px) {
   #changesize {
     font-size: 40px;
-    padding: 0 40px;
+    padding: 0 25px;
+    line-height: 85px;
   }
 
   .allarticles .articlebox {
