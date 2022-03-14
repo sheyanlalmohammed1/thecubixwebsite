@@ -67,3 +67,10 @@ def thebroadsolutiontosolvingwealthinequalitytheorganization():
 def takinganeededsteptowardssolvingwealthinequalitytheintroduction():
     return render_template("takinganeededsteptowardssolvingwealthinequalitytheintroduction.html")
 
+@app.route("/2021/04/09/the-thought-of-inflation")
+def thethoughtofinflation():
+    return render_template("thethoughtofinflation.html")
+
+@app.route("/2021/04/01/what-exactly-the-ship-stuck-in-the-suez-canal-meant-to-the-economy")
+def whatexactlytheshipstuckinthesuezcanalmeanttotheeconomy():
+    return render_template("whatexactlytheshipstuckinthesuezcanalmeanttotheeconomy.html")
